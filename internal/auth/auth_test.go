@@ -61,12 +61,11 @@ func TestGetAPIKey(t *testing.T) {
 	}
 }
 
-
 // func Test(t *testing.T) {
 // 	testCases := []struct {
 // 		name	string
 // 		input	http.Header
-// 		want	string		
+// 		want	string
 // 	}{
 // 		{name: "Correct format", input: http.Header{"Authorization": []string{"ApiKey abc123"}}, want: "abc123"},
 // 		{name: "Incorrect format", input: http.Header{"Authorization": []string{"Bearer abc123"}}, want: ""},
